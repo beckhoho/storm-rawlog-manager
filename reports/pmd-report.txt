@@ -1,0 +1,713 @@
+src/main/java/com/nl/event/bolt/CaptureAtomEventBolt.java:47:	The class 'CaptureAtomEventBolt' has a Cyclomatic Complexity of 5 (Highest = 12).
+src/main/java/com/nl/event/bolt/CaptureAtomEventBolt.java:47:	The class 'CaptureAtomEventBolt' has a Modified Cyclomatic Complexity of 5 (Highest = 12).
+src/main/java/com/nl/event/bolt/CaptureAtomEventBolt.java:47:	The class 'CaptureAtomEventBolt' has a Standard Cyclomatic Complexity of 5 (Highest = 12).
+src/main/java/com/nl/event/bolt/CaptureAtomEventBolt.java:81:	Parameter 'context' is not assigned and could be declared final
+src/main/java/com/nl/event/bolt/CaptureAtomEventBolt.java:81:	Parameter 'stormConf' is not assigned and could be declared final
+src/main/java/com/nl/event/bolt/CaptureAtomEventBolt.java:95:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/com/nl/event/bolt/CaptureAtomEventBolt.java:95:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/com/nl/event/bolt/CaptureAtomEventBolt.java:107:	Found 'UR'-anomaly for variable 'atomEvent' (lines '107'-'119').
+src/main/java/com/nl/event/bolt/CaptureAtomEventBolt.java:107:	Found 'UR'-anomaly for variable 'captureField' (lines '107'-'152').
+src/main/java/com/nl/event/bolt/CaptureAtomEventBolt.java:107:	Found 'UR'-anomaly for variable 'expressionParam' (lines '107'-'131').
+src/main/java/com/nl/event/bolt/CaptureAtomEventBolt.java:107:	Parameter 'collector' is not assigned and could be declared final
+src/main/java/com/nl/event/bolt/CaptureAtomEventBolt.java:107:	Parameter 'tuple' is not assigned and could be declared final
+src/main/java/com/nl/event/bolt/CaptureAtomEventBolt.java:107:	The method 'execute' has a Cyclomatic Complexity of 12.
+src/main/java/com/nl/event/bolt/CaptureAtomEventBolt.java:107:	The method 'execute' has a Modified Cyclomatic Complexity of 12.
+src/main/java/com/nl/event/bolt/CaptureAtomEventBolt.java:107:	The method 'execute' has a Standard Cyclomatic Complexity of 12.
+src/main/java/com/nl/event/bolt/CaptureAtomEventBolt.java:107:	The method execute() has an NPath complexity of 316
+src/main/java/com/nl/event/bolt/CaptureAtomEventBolt.java:112:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/nl/event/bolt/CaptureAtomEventBolt.java:117:	If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/com/nl/event/bolt/CaptureAtomEventBolt.java:120:	Found 'DD'-anomaly for variable 'expressionParams' (lines '120'-'120').
+src/main/java/com/nl/event/bolt/CaptureAtomEventBolt.java:120:	Found 'DU'-anomaly for variable 'expressionParams' (lines '120'-'164').
+src/main/java/com/nl/event/bolt/CaptureAtomEventBolt.java:121:	Found 'DD'-anomaly for variable 'captureFields' (lines '121'-'121').
+src/main/java/com/nl/event/bolt/CaptureAtomEventBolt.java:121:	Found 'DU'-anomaly for variable 'captureFields' (lines '121'-'164').
+src/main/java/com/nl/event/bolt/CaptureAtomEventBolt.java:123:	Found 'DD'-anomaly for variable 'isCapture' (lines '123'-'128').
+src/main/java/com/nl/event/bolt/CaptureAtomEventBolt.java:123:	Found 'DD'-anomaly for variable 'isCapture' (lines '123'-'144').
+src/main/java/com/nl/event/bolt/CaptureAtomEventBolt.java:139:	Found 'DD'-anomaly for variable 'expression' (lines '139'-'141').
+src/main/java/com/nl/event/bolt/CaptureAtomEventBolt.java:167:	Found 'UR'-anomaly for variable 'stream' (lines '167'-'169').
+src/main/java/com/nl/event/bolt/CaptureAtomEventBolt.java:167:	Parameter 'declarer' is not assigned and could be declared final
+src/main/java/com/nl/event/bolt/Hmset2RedisBolt.java:30:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/bolt/Hmset2RedisBolt.java:31:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/bolt/Hmset2RedisBolt.java:32:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/bolt/Hmset2RedisBolt.java:48:	Parameter 'context' is not assigned and could be declared final
+src/main/java/com/nl/event/bolt/Hmset2RedisBolt.java:48:	Parameter 'stormConf' is not assigned and could be declared final
+src/main/java/com/nl/event/bolt/Hmset2RedisBolt.java:52:	Parameter 'collector' is not assigned and could be declared final
+src/main/java/com/nl/event/bolt/Hmset2RedisBolt.java:52:	Parameter 'tuple' is not assigned and could be declared final
+src/main/java/com/nl/event/bolt/Hmset2RedisBolt.java:56:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/nl/event/bolt/Hmset2RedisBolt.java:57:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/nl/event/bolt/Hmset2RedisBolt.java:63:	Parameter 'declarer' is not assigned and could be declared final
+src/main/java/com/nl/event/bolt/MatchRuleBolt.java:42:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/bolt/MatchRuleBolt.java:44:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/bolt/MatchRuleBolt.java:45:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/bolt/MatchRuleBolt.java:46:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/bolt/MatchRuleBolt.java:63:	Parameter 'context' is not assigned and could be declared final
+src/main/java/com/nl/event/bolt/MatchRuleBolt.java:63:	Parameter 'stormConf' is not assigned and could be declared final
+src/main/java/com/nl/event/bolt/MatchRuleBolt.java:70:	Found 'UR'-anomaly for variable 'param' (lines '70'-'92').
+src/main/java/com/nl/event/bolt/MatchRuleBolt.java:70:	Found 'UR'-anomaly for variable 'ruleInstance' (lines '70'-'82').
+src/main/java/com/nl/event/bolt/MatchRuleBolt.java:70:	Parameter 'collector' is not assigned and could be declared final
+src/main/java/com/nl/event/bolt/MatchRuleBolt.java:70:	Parameter 'tuple' is not assigned and could be declared final
+src/main/java/com/nl/event/bolt/MatchRuleBolt.java:74:	Found 'DU'-anomaly for variable 'ruleInstancesParamsMap' (lines '74'-'128').
+src/main/java/com/nl/event/bolt/MatchRuleBolt.java:75:	Found 'DU'-anomaly for variable 'user' (lines '75'-'128').
+src/main/java/com/nl/event/bolt/MatchRuleBolt.java:84:	Found 'DD'-anomaly for variable 'eventId' (lines '84'-'84').
+src/main/java/com/nl/event/bolt/MatchRuleBolt.java:84:	Found 'DU'-anomaly for variable 'eventId' (lines '84'-'128').
+src/main/java/com/nl/event/bolt/MatchRuleBolt.java:91:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/nl/event/bolt/MatchRuleBolt.java:108:	Do not add empty strings
+src/main/java/com/nl/event/bolt/MatchRuleBolt.java:131:	Parameter 'declarer' is not assigned and could be declared final
+src/main/java/com/nl/event/bolt/MatchSaleActiveUserListBolt.java:49:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/bolt/MatchSaleActiveUserListBolt.java:51:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/bolt/MatchSaleActiveUserListBolt.java:52:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/bolt/MatchSaleActiveUserListBolt.java:53:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/bolt/MatchSaleActiveUserListBolt.java:54:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/main/java/com/nl/event/bolt/MatchSaleActiveUserListBolt.java:54:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/bolt/MatchSaleActiveUserListBolt.java:55:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/bolt/MatchSaleActiveUserListBolt.java:64:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/main/java/com/nl/event/bolt/MatchSaleActiveUserListBolt.java:75:	Parameter 'context' is not assigned and could be declared final
+src/main/java/com/nl/event/bolt/MatchSaleActiveUserListBolt.java:75:	Parameter 'stormConf' is not assigned and could be declared final
+src/main/java/com/nl/event/bolt/MatchSaleActiveUserListBolt.java:82:	Found 'UR'-anomaly for variable 'strUser' (lines '82'-'91').
+src/main/java/com/nl/event/bolt/MatchSaleActiveUserListBolt.java:82:	Parameter 'collector' is not assigned and could be declared final
+src/main/java/com/nl/event/bolt/MatchSaleActiveUserListBolt.java:82:	Parameter 'tuple' is not assigned and could be declared final
+src/main/java/com/nl/event/bolt/MatchSaleActiveUserListBolt.java:85:	Found 'DU'-anomaly for variable 'ruleInstanceList' (lines '85'-'98').
+src/main/java/com/nl/event/bolt/MatchSaleActiveUserListBolt.java:86:	Found 'DU'-anomaly for variable 'ruleInstancesParamsMap' (lines '86'-'98').
+src/main/java/com/nl/event/bolt/MatchSaleActiveUserListBolt.java:101:	Found 'UR'-anomaly for variable 'stream' (lines '101'-'103').
+src/main/java/com/nl/event/bolt/MatchSaleActiveUserListBolt.java:101:	Parameter 'declarer' is not assigned and could be declared final
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:41:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:59:	Parameter 'tuple' is not assigned and could be declared final
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:64:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:71:	Parameter 'conf' is not assigned and could be declared final
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:71:	Parameter 'context' is not assigned and could be declared final
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:72:	Parameter 'collector' is not assigned and could be declared final
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:74:	Ensure that resources like this Connection object are closed after use
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:74:	Found 'DD'-anomaly for variable 'conn' (lines '74'-'77').
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:81:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:83:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:90:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:91:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:92:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:93:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:94:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:95:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:96:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:97:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:99:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:100:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:101:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:102:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:103:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:104:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:106:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:107:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:108:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:109:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:110:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:111:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:112:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:113:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:114:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:115:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:116:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:117:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:118:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:119:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:120:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:121:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:122:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:123:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:124:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:125:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:126:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/bolt/StoreDbBolt.java:133:	Parameter 'declarer' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/BusinessData.java:7:	Possible God class (WMC=54, ATFD=76, TCC=0.09523809523809523)
+src/main/java/com/nl/event/configtable/BusinessData.java:32:	Avoid variables with short names like db
+src/main/java/com/nl/event/configtable/BusinessData.java:39:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/nl/event/configtable/BusinessData.java:40:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/nl/event/configtable/BusinessData.java:42:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/nl/event/configtable/BusinessData.java:45:	Avoid really long methods.
+src/main/java/com/nl/event/configtable/BusinessData.java:47:	Found 'DD'-anomaly for variable 'conn' (lines '47'-'52').
+src/main/java/com/nl/event/configtable/BusinessData.java:49:	Avoid variables with short names like rs
+src/main/java/com/nl/event/configtable/BusinessData.java:49:	Ensure that resources like this ResultSet object are closed after use
+src/main/java/com/nl/event/configtable/BusinessData.java:57:	System.out.println is used
+src/main/java/com/nl/event/configtable/BusinessData.java:61:	System.out.println is used
+src/main/java/com/nl/event/configtable/BusinessData.java:62:	The String literal "active_id" appears 4 times in this file; the first occurrence is on line 62
+src/main/java/com/nl/event/configtable/BusinessData.java:63:	Local variable 'saleActive' could be declared final
+src/main/java/com/nl/event/configtable/BusinessData.java:84:	System.out.println is used
+src/main/java/com/nl/event/configtable/BusinessData.java:88:	System.out.println is used
+src/main/java/com/nl/event/configtable/BusinessData.java:89:	Local variable 'ruleInstance' could be declared final
+src/main/java/com/nl/event/configtable/BusinessData.java:113:	System.out.println is used
+src/main/java/com/nl/event/configtable/BusinessData.java:117:	System.out.println is used
+src/main/java/com/nl/event/configtable/BusinessData.java:118:	Local variable 'saleActiveRuleParam' could be declared final
+src/main/java/com/nl/event/configtable/BusinessData.java:142:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/nl/event/configtable/BusinessData.java:143:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/nl/event/configtable/BusinessData.java:150:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/nl/event/configtable/BusinessData.java:164:	Parameter 'ruleInstanceParams' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/BusinessData.java:168:	Parameter 'saleActiveList' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/BusinessData.java:176:	Parameter 'ruleInstances' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/BusinessData.java:180:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/nl/event/configtable/BusinessData.java:181:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/nl/event/configtable/BusinessData.java:183:	Parameter 'sourceId' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/BusinessData.java:185:	Found 'DD'-anomaly for variable 'conn' (lines '185'-'190').
+src/main/java/com/nl/event/configtable/BusinessData.java:187:	Avoid variables with short names like rs
+src/main/java/com/nl/event/configtable/BusinessData.java:187:	Ensure that resources like this ResultSet object are closed after use
+src/main/java/com/nl/event/configtable/BusinessData.java:217:	Local variable 'atomEvent' could be declared final
+src/main/java/com/nl/event/configtable/BusinessData.java:229:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/nl/event/configtable/BusinessData.java:230:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/nl/event/configtable/BusinessData.java:237:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/nl/event/configtable/BusinessData.java:246:	Parameter 'sourceData' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/BusinessData.java:254:	Parameter 'atomEventList' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/BusinessData.java:258:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/nl/event/configtable/BusinessData.java:259:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/nl/event/configtable/BusinessData.java:260:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/nl/event/configtable/BusinessData.java:261:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/nl/event/configtable/BusinessData.java:265:	Found 'DD'-anomaly for variable 'conn' (lines '265'-'270').
+src/main/java/com/nl/event/configtable/BusinessData.java:267:	Avoid variables with short names like rs
+src/main/java/com/nl/event/configtable/BusinessData.java:267:	Ensure that resources like this ResultSet object are closed after use
+src/main/java/com/nl/event/configtable/BusinessData.java:280:	The String literal "\nQuery result:\n" appears 4 times in this file; the first occurrence is on line 280
+src/main/java/com/nl/event/configtable/BusinessData.java:317:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/nl/event/configtable/BusinessData.java:318:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/nl/event/configtable/BusinessData.java:325:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/nl/event/configtable/BusinessData.java:334:	Parameter 'station' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/BusinessData.java:342:	Parameter 'airport' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/BusinessData.java:350:	Parameter 'scenicSpots' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/BusinessData.java:358:	Parameter 'otherScene' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/BusinessData.java:362:	Parameter 'urlRecognition' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/BusinessData.java:366:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/nl/event/configtable/BusinessData.java:370:	Found 'DD'-anomaly for variable 'conn' (lines '370'-'375').
+src/main/java/com/nl/event/configtable/BusinessData.java:372:	Avoid variables with short names like rs
+src/main/java/com/nl/event/configtable/BusinessData.java:372:	Ensure that resources like this ResultSet object are closed after use
+src/main/java/com/nl/event/configtable/BusinessData.java:392:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/nl/event/configtable/BusinessData.java:393:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/nl/event/configtable/BusinessData.java:400:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/nl/event/configtable/BusinessData.java:409:	Avoid variables with short names like db
+src/main/java/com/nl/event/configtable/BusinessData.java:409:	Parameter 'db' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/BusinessData.java:417:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/main/java/com/nl/event/configtable/BusinessData.java:417:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/nl/event/configtable/BusinessData.java:417:	Found 'UR'-anomaly for variable 'p' (lines '417'-'445').
+src/main/java/com/nl/event/configtable/BusinessData.java:417:	Found 'UR'-anomaly for variable 'ruleInstance' (lines '417'-'441').
+src/main/java/com/nl/event/configtable/BusinessData.java:417:	Found 'UR'-anomaly for variable 'saleActive' (lines '417'-'437').
+src/main/java/com/nl/event/configtable/BusinessData.java:417:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/BusinessData.java:423:	Local variable 'dbCfg' could be declared final
+src/main/java/com/nl/event/configtable/BusinessData.java:433:	Found 'DU'-anomaly for variable 'ruleInstances' (lines '433'-'452').
+src/main/java/com/nl/event/configtable/BusinessData.java:434:	Found 'DU'-anomaly for variable 'ruleInstanceParams' (lines '434'-'452').
+src/main/java/com/nl/event/configtable/BusinessData.java:436:	Local variable 'saleActive' could be declared final
+src/main/java/com/nl/event/configtable/BusinessData.java:437:	System.out.println is used
+src/main/java/com/nl/event/configtable/BusinessData.java:439:	Local variable 'ruleInstance' could be declared final
+src/main/java/com/nl/event/configtable/BusinessData.java:441:	System.out.println is used
+src/main/java/com/nl/event/configtable/BusinessData.java:443:	Local variable 'p' could be declared final
+src/main/java/com/nl/event/configtable/BusinessData.java:445:	System.out.println is used
+src/main/java/com/nl/event/configtable/bean/ActiveOpp.java:11:	Too many fields
+src/main/java/com/nl/event/configtable/bean/ActiveOpp.java:33:	Parameter 'monNum' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/ActiveOpp.java:39:	Parameter 'chanceId' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/ActiveOpp.java:45:	Parameter 'eventType' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/ActiveOpp.java:51:	Parameter 'userId' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/ActiveOpp.java:57:	Parameter 'msisdn' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/ActiveOpp.java:63:	Parameter 'brandId' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/ActiveOpp.java:69:	Parameter 'userGroupId' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/ActiveOpp.java:75:	Parameter 'activeId' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/ActiveOpp.java:81:	Parameter 'stepId' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/ActiveOpp.java:87:	Parameter 'activeOppId' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/ActiveOpp.java:93:	Parameter 'ruleId' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/ActiveOpp.java:99:	Parameter 'ruleInstanceId' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/ActiveOpp.java:105:	Parameter 'evtArgList' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/ActiveOpp.java:111:	Parameter 'insertTime' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/ActiveOpp.java:117:	Parameter 'acceptTime' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/ActiveOpp.java:123:	Parameter 'dealStat' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/AtomEvent.java:26:	Parameter 'eventId' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/AtomEvent.java:34:	Parameter 'eventName' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/AtomEvent.java:42:	Parameter 'classCode' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/AtomEvent.java:50:	Parameter 'sourceId' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/AtomEvent.java:58:	Parameter 'eventDesc' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/AtomEvent.java:66:	Parameter 'captureField' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/AtomEvent.java:74:	Parameter 'expression' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/AtomEvent.java:82:	Parameter 'expressionParam' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/AtomEvent.java:90:	Parameter 'isRealize' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/AtomEvent.java:98:	Avoid prefixing parameters by in, out or inOut. Uses Javadoc to document this behavior.
+src/main/java/com/nl/event/configtable/bean/AtomEvent.java:98:	Parameter 'inUse' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/RuleInstance.java:25:	Parameter 'activeId' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/RuleInstance.java:33:	Parameter 'ruleInstanceId' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/RuleInstance.java:41:	Parameter 'ruleId' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/RuleInstance.java:49:	Parameter 'eventId' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/RuleInstance.java:57:	Parameter 'paramExpres' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/RuleInstance.java:65:	Parameter 'paramExpresDetail' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/SaleActive.java:29:	Parameter 'activeId' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/SaleActive.java:35:	Parameter 'stepId' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/SaleActive.java:41:	Parameter 'userGroupId' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/SaleActive.java:47:	Parameter 'userGroupRefresh' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/SaleActive.java:53:	Parameter 'areaId' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/SaleActive.java:59:	Parameter 'isCapture' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/SaleActive.java:65:	Parameter 'activeOppId' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/SaleActive.java:71:	Parameter 'ruleExpres' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/SaleActive.java:77:	Parameter 'requestContent' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/SaleActive.java:83:	Parameter 'requestTime' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/SaleActive.java:89:	Parameter 'requestTimeStamp' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/SaleActiveRuleParam.java:24:	Parameter 'activeId' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/SaleActiveRuleParam.java:32:	Parameter 'ruleInstanceId' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/SaleActiveRuleParam.java:41:	Parameter 'paramId' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/SaleActiveRuleParam.java:49:	Parameter 'operId' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/SaleActiveRuleParam.java:57:	Parameter 'paramValue' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/SourceData.java:23:	Parameter 'sourceId' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/SourceData.java:29:	Parameter 'sourceName' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/SourceData.java:35:	Parameter 'sourceDesc' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/SourceData.java:41:	Parameter 'fieldsList' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/SourceData.java:47:	Parameter 'fieldDelimiter' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/SourceData.java:53:	Parameter 'fieldsSize' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/SourceData.java:59:	Parameter 'keyFieldIndex' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/SourceData.java:65:	Parameter 'keyField' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/SourceData.java:71:	Parameter 'instance' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/User.java:11:	Avoid short class names like User
+src/main/java/com/nl/event/configtable/bean/User.java:21:	Parameter 'userId' is not assigned and could be declared final
+src/main/java/com/nl/event/configtable/bean/User.java:29:	Parameter 'msisdn' is not assigned and could be declared final
+src/main/java/com/nl/event/spout/GetSaleActiveListSpout.java:45:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/spout/GetSaleActiveListSpout.java:46:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/spout/GetSaleActiveListSpout.java:47:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/spout/GetSaleActiveListSpout.java:53:	Avoid using redundant field initializer for 'collector'
+src/main/java/com/nl/event/spout/GetSaleActiveListSpout.java:53:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/spout/GetSaleActiveListSpout.java:58:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/spout/GetSaleActiveListSpout.java:70:	Parameter 'collector' is not assigned and could be declared final
+src/main/java/com/nl/event/spout/GetSaleActiveListSpout.java:70:	Parameter 'conf' is not assigned and could be declared final
+src/main/java/com/nl/event/spout/GetSaleActiveListSpout.java:70:	Parameter 'context' is not assigned and could be declared final
+src/main/java/com/nl/event/spout/GetSaleActiveListSpout.java:78:	Found 'UR'-anomaly for variable 'ri' (lines '78'-'95').
+src/main/java/com/nl/event/spout/GetSaleActiveListSpout.java:78:	Found 'UR'-anomaly for variable 'saleActive' (lines '78'-'85').
+src/main/java/com/nl/event/spout/GetSaleActiveListSpout.java:78:	Found 'UR'-anomaly for variable 'saleActive' (lines '78'-'90').
+src/main/java/com/nl/event/spout/GetSaleActiveListSpout.java:82:	Found 'DU'-anomaly for variable 'ruleInstanceParams' (lines '82'-'110').
+src/main/java/com/nl/event/spout/GetSaleActiveListSpout.java:93:	Found 'DD'-anomaly for variable 'ruleInstancesParamsMap' (lines '93'-'93').
+src/main/java/com/nl/event/spout/GetSaleActiveListSpout.java:93:	Found 'DU'-anomaly for variable 'ruleInstancesParamsMap' (lines '93'-'110').
+src/main/java/com/nl/event/spout/GetSaleActiveListSpout.java:93:	If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/com/nl/event/spout/GetSaleActiveListSpout.java:108:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/nl/event/spout/GetSaleActiveListSpout.java:113:	Parameter 'declarer' is not assigned and could be declared final
+src/main/java/com/nl/event/spout/GetSaleActiveListSpout.java:118:	Parameter 'unique' is not assigned and could be declared final
+src/main/java/com/nl/event/spout/GetSaleActiveListSpout.java:123:	Parameter 'unique' is not assigned and could be declared final
+src/main/java/com/nl/event/spout/GetSaleActiveListSpout.java:126:	Parameter 'unique' is not assigned and could be declared final
+src/main/java/com/nl/event/spout/KafkaSpoutFactory.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/spout/KafkaSpoutFactory.java:25:	Perhaps 'cfg' could be replaced by a local variable.
+src/main/java/com/nl/event/spout/KafkaSpoutFactory.java:26:	Avoid unused private fields such as 'LOG'.
+src/main/java/com/nl/event/spout/KafkaSpoutFactory.java:30:	Local variable 'spoutConf' could be declared final
+src/main/java/com/nl/event/test/Test.java:16:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/nl/event/test/Test.java:16:	Avoid short class names like Test
+src/main/java/com/nl/event/test/Test.java:18:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/nl/event/test/Test.java:18:	Found 'UR'-anomaly for variable 'value' (lines '18'-'34').
+src/main/java/com/nl/event/test/Test.java:18:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/nl/event/test/Test.java:19:	Avoid unused local variables such as 'urlClass'.
+src/main/java/com/nl/event/test/Test.java:19:	Found 'DU'-anomaly for variable 'urlClass' (lines '19'-'113').
+src/main/java/com/nl/event/test/Test.java:19:	Local variable 'urlClass' could be declared final
+src/main/java/com/nl/event/test/Test.java:25:	Local variable 'values' could be declared final
+src/main/java/com/nl/event/test/Test.java:33:	Local variable 'value' could be declared final
+src/main/java/com/nl/event/test/Test.java:34:	System.out.println is used
+src/main/java/com/nl/event/test/Test.java:39:	Local variable 'value' could be declared final
+src/main/java/com/nl/event/test/Test.java:40:	System.out.println is used
+src/main/java/com/nl/event/test/Test.java:44:	System.out.println is used
+src/main/java/com/nl/event/test/Test.java:45:	Local variable 'calendar' could be declared final
+src/main/java/com/nl/event/test/Test.java:46:	System.out.println is used
+src/main/java/com/nl/event/test/Test.java:47:	System.out.println is used
+src/main/java/com/nl/event/test/Test.java:48:	System.out.println is used
+src/main/java/com/nl/event/test/Test.java:69:	StringBuffer (or StringBuilder).append is called 33 consecutive times with literal Strings. Use a single append with a single combined String.
+src/main/java/com/nl/event/test/Test.java:69:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:70:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:71:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:71:	The String literal "','" appears 9 times in this file; the first occurrence is on line 71
+src/main/java/com/nl/event/test/Test.java:72:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:73:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:74:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:75:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:76:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:77:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:78:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:79:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:80:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:81:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:82:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:83:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:84:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:85:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:86:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:87:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:88:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:89:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:90:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:91:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:92:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:93:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:94:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:95:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:96:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:97:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:98:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:99:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:100:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/com/nl/event/test/Test.java:103:	System.out.println is used
+src/main/java/com/nl/event/test/Test.java:106:	System.out.println is used
+src/main/java/com/nl/event/test/Test.java:108:	System.out.println is used
+src/main/java/com/nl/event/test/Test.java:110:	Avoid variables with short names like m
+src/main/java/com/nl/event/test/Test.java:110:	If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/com/nl/event/test/Test.java:112:	System.out.println is used
+src/main/java/com/nl/event/test/TestExpressionAnalyzer.java:13:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/nl/event/test/TestExpressionAnalyzer.java:14:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/nl/event/test/TestExpressionAnalyzer.java:14:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/nl/event/test/TestExpressionAnalyzer.java:15:	Local variable 'factory' could be declared final
+src/main/java/com/nl/event/test/TestExpressionAnalyzer.java:26:	Local variable 'exp' could be declared final
+src/main/java/com/nl/event/test/TestExpressionAnalyzer.java:27:	System.out.println is used
+src/main/java/com/nl/event/test/TestExpressionAnalyzer.java:29:	Local variable 'result' could be declared final
+src/main/java/com/nl/event/test/TestExpressionAnalyzer.java:30:	System.out.println is used
+src/main/java/com/nl/event/test/TestExpressionAnalyzer.java:31:	System.out.println is used
+src/main/java/com/nl/event/test/TestFinalCons.java:8:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/nl/event/test/TestFinalCons.java:10:	Avoid unused private fields such as 'STR'.
+src/main/java/com/nl/event/test/TestFinalCons.java:11:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/nl/event/test/TestFinalCons.java:11:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/nl/event/test/TestFinalCons.java:13:	System.out.println is used
+src/main/java/com/nl/event/test/TestFinalCons.java:15:	Local variable 'out' could be declared final
+src/main/java/com/nl/event/test/TestFinalCons.java:18:	System.out.println is used
+src/main/java/com/nl/event/test/TestGetRedisHashMap.java:16:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/nl/event/test/TestGetRedisHashMap.java:17:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/nl/event/test/TestGetRedisHashMap.java:17:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/nl/event/test/TestGetRedisHashMap.java:18:	Local variable 'cfg' could be declared final
+src/main/java/com/nl/event/test/TestGetRedisHashMap.java:20:	Local variable 'places' could be declared final
+src/main/java/com/nl/event/test/TestGetRedisHashMap.java:29:	Avoid variables with short names like jc
+src/main/java/com/nl/event/test/TestGetRedisHashMap.java:30:	System.out.println is used
+src/main/java/com/nl/event/test/TestHash.java:8:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/nl/event/test/TestHash.java:10:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/nl/event/test/TestHash.java:10:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/nl/event/test/TestHash.java:11:	System.out.println is used
+src/main/java/com/nl/event/test/TestHash.java:14:	System.out.println is used
+src/main/java/com/nl/event/test/TestHash.java:15:	System.out.println is used
+src/main/java/com/nl/event/test/TestListOrder.java:13:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/nl/event/test/TestListOrder.java:15:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/nl/event/test/TestListOrder.java:15:	Found 'UR'-anomaly for variable 'str' (lines '15'-'31').
+src/main/java/com/nl/event/test/TestListOrder.java:15:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/nl/event/test/TestListOrder.java:17:	Local variable 'strList' could be declared final
+src/main/java/com/nl/event/test/TestListOrder.java:30:	Local variable 'str' could be declared final
+src/main/java/com/nl/event/test/TestListOrder.java:31:	System.out.println is used
+src/main/java/com/nl/event/test/TestLoadConf.java:3:	Avoid unused imports such as 'java.io.File'
+src/main/java/com/nl/event/test/TestLoadConf.java:8:	Avoid unused imports such as 'java.util.ArrayList'
+src/main/java/com/nl/event/test/TestLoadConf.java:9:	Avoid unused imports such as 'java.util.Map.Entry'
+src/main/java/com/nl/event/test/TestLoadConf.java:16:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/nl/event/test/TestLoadConf.java:17:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/nl/event/test/TestLoadConf.java:17:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/nl/event/test/TestLoadConf.java:18:	Local variable 'conf' could be declared final
+src/main/java/com/nl/event/test/TestLoadConf.java:36:	System.out.println is used
+src/main/java/com/nl/event/test/TestLoadConf.java:37:	System.out.println is used
+src/main/java/com/nl/event/test/TestRedis.java:12:	Avoid unused imports such as 'java.io.FileNotFoundException'
+src/main/java/com/nl/event/test/TestRedis.java:22:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/nl/event/test/TestRedis.java:24:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/nl/event/test/TestRedis.java:24:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/nl/event/test/TestRedis.java:26:	Local variable 'cfg' could be declared final
+src/main/java/com/nl/event/test/TestRedis.java:28:	Local variable 'places' could be declared final
+src/main/java/com/nl/event/test/TestRedis.java:37:	Avoid variables with short names like jc
+src/main/java/com/nl/event/test/TestRedis.java:43:	Avoid variables with short names like jc
+src/main/java/com/nl/event/test/TestRedis.java:43:	Use explicit scoping instead of the default package private level
+src/main/java/com/nl/event/test/TestRedis.java:44:	Avoid variables with short names like in
+src/main/java/com/nl/event/test/TestRedis.java:47:	Local variable 'strFile' could be declared final
+src/main/java/com/nl/event/test/TestRedis.java:50:	Avoid assignments in operands
+src/main/java/com/nl/event/test/TestRedis.java:50:	Found 'DU'-anomaly for variable 'sTempOneLine' (lines '50'-'59').
+src/main/java/com/nl/event/test/TestRedis.java:51:	Local variable 'fields' could be declared final
+src/main/java/com/nl/event/test/TestRedis.java:54:	System.out.println is used
+src/main/java/com/nl/event/test/TestRedis.java:106:	Avoid really long methods.
+src/main/java/com/nl/event/test/TestRedis.java:106:	Avoid variables with short names like jc
+src/main/java/com/nl/event/test/TestRedis.java:106:	Found 'UR'-anomaly for variable 's' (lines '106'-'209').
+src/main/java/com/nl/event/test/TestRedis.java:106:	Parameter 'jc' is not assigned and could be declared final
+src/main/java/com/nl/event/test/TestRedis.java:106:	Use explicit scoping instead of the default package private level
+src/main/java/com/nl/event/test/TestRedis.java:107:	Local variable 'data' could be declared final
+src/main/java/com/nl/event/test/TestRedis.java:116:	The String literal "13910269623,358766056580810" appears 6 times in this file; the first occurrence is on line 116
+src/main/java/com/nl/event/test/TestRedis.java:139:	The String literal "15999133895,358690054811080" appears 4 times in this file; the first occurrence is on line 139
+src/main/java/com/nl/event/test/TestRedis.java:140:	The String literal "15999179110,358840055695220" appears 5 times in this file; the first occurrence is on line 140
+src/main/java/com/nl/event/test/TestRedis.java:151:	The String literal "13876446737,352107064196830" appears 4 times in this file; the first occurrence is on line 151
+src/main/java/com/nl/event/test/TestRedis.java:154:	The String literal "15775878288,358765050930680" appears 11 times in this file; the first occurrence is on line 154
+src/main/java/com/nl/event/test/TestRedis.java:208:	Local variable 's' could be declared final
+src/main/java/com/nl/event/test/TestRedis.java:210:	System.out.println is used
+src/main/java/com/nl/event/test/TestRotatingMap.java:11:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/nl/event/test/TestRotatingMap.java:12:	Use explicit scoping instead of the default package private level
+src/main/java/com/nl/event/test/TestRotatingMap.java:12:	Variables that are final and static should be all capitals, 'numBuckets' is not all capitals.
+src/main/java/com/nl/event/test/TestRotatingMap.java:13:	Use explicit scoping instead of the default package private level
+src/main/java/com/nl/event/test/TestRotatingMap.java:19:	Parameter 'key' is not assigned and could be declared final
+src/main/java/com/nl/event/test/TestRotatingMap.java:19:	Parameter 'val' is not assigned and could be declared final
+src/main/java/com/nl/event/test/TestRotatingMap.java:20:	System.out.println is used
+src/main/java/com/nl/event/test/TestRotatingMap.java:21:	System.out.println is used
+src/main/java/com/nl/event/test/TestRotatingMap.java:25:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/nl/event/test/TestRotatingMap.java:25:	Found 'UR'-anomaly for variable 'lock' (lines '25'-'25').
+src/main/java/com/nl/event/test/TestRotatingMap.java:25:	Found 'UR'-anomaly for variable 'lock' (lines '25'-'25').
+src/main/java/com/nl/event/test/TestRotatingMap.java:25:	Found 'UR'-anomaly for variable 'lock' (lines '25'-'25').
+src/main/java/com/nl/event/test/TestRotatingMap.java:25:	Found 'UR'-anomaly for variable 'lock' (lines '25'-'25').
+src/main/java/com/nl/event/test/TestRotatingMap.java:25:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/nl/event/test/TestRotatingMap.java:32:	System.out.println is used
+src/main/java/com/nl/event/test/TestRotatingMap.java:36:	Local variable 'cleaner' could be declared final
+src/main/java/com/nl/event/test/TestRotatingMap.java:36:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/com/nl/event/test/TestRotatingMap.java:36:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/com/nl/event/test/TestRotatingMap.java:36:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/com/nl/event/test/TestRotatingMap.java:37:	Found 'DU'-anomaly for variable 'expirationMillis' (lines '37'-'99').
+src/main/java/com/nl/event/test/TestRotatingMap.java:37:	Found 'DU'-anomaly for variable 'expirationMillis' (lines '37'-'99').
+src/main/java/com/nl/event/test/TestRotatingMap.java:37:	Found 'DU'-anomaly for variable 'expirationMillis' (lines '37'-'99').
+src/main/java/com/nl/event/test/TestRotatingMap.java:37:	Found 'DU'-anomaly for variable 'expirationMillis' (lines '37'-'99').
+src/main/java/com/nl/event/test/TestRotatingMap.java:46:	System.out.println is used
+src/main/java/com/nl/event/test/TestRotatingMap.java:58:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/com/nl/event/test/TestRotatingMap.java:58:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/com/nl/event/test/TestRotatingMap.java:76:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/com/nl/event/test/TestRotatingMap.java:76:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/com/nl/event/test/TestScheduledExecutorService.java:13:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/nl/event/test/TestScheduledExecutorService.java:15:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/nl/event/test/TestScheduledExecutorService.java:15:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/nl/event/test/TestScheduledExecutorService.java:16:	Local variable 'runnable' could be declared final
+src/main/java/com/nl/event/test/TestScheduledExecutorService.java:16:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/com/nl/event/test/TestScheduledExecutorService.java:16:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/com/nl/event/test/TestScheduledExecutorService.java:19:	System.out.println is used
+src/main/java/com/nl/event/test/TestScheduledExecutorService.java:22:	Local variable 'service' could be declared final
+src/main/java/com/nl/event/test/TestUrlRecognition.java:8:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/nl/event/test/TestUrlRecognition.java:10:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/nl/event/test/TestUrlRecognition.java:10:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/nl/event/test/TestUrlRecognition.java:12:	Local variable 'url' could be declared final
+src/main/java/com/nl/event/test/TestUrlRecognition.java:14:	Local variable 'host' could be declared final
+src/main/java/com/nl/event/test/TestUrlRecognition.java:15:	System.out.println is used
+src/main/java/com/nl/event/test/User.java:11:	Avoid short class names like User
+src/main/java/com/nl/event/test/User.java:25:	Parameter 'userId' is not assigned and could be declared final
+src/main/java/com/nl/event/test/User.java:33:	Parameter 'msisdn' is not assigned and could be declared final
+src/main/java/com/nl/event/test/User.java:37:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/nl/event/test/User.java:37:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/nl/event/test/User.java:38:	Avoid variables with short names like u
+src/main/java/com/nl/event/test/User.java:40:	System.out.println is used
+src/main/java/com/nl/event/test/User.java:41:	System.out.println is used
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:14:	Avoid unused imports such as 'java.util.HashMap'
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:31:	Avoid unused private fields such as 'LOG'.
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:31:	The Logger variable declaration does not contain the static and final modifiers
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:31:	The field name indicates a constant but its modifiers do not
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:31:	Variables should start with a lowercase character, 'LOG' starts with uppercase character.
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:32:	Avoid unused private fields such as 'isDebug'.
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:32:	Avoid using redundant field initializer for 'isDebug'
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:32:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:32:	Perhaps 'isDebug' could be replaced by a local variable.
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:35:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:36:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:38:	Parameter 'keyIndex' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:42:	Parameter 'fieldDelim' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:42:	Parameter 'keyIndex' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:48:	Parameter 'context' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:48:	Parameter 'stormConf' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:52:	Parameter 'collector' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:52:	Parameter 'tuple' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:53:	Local variable 'value' could be declared final
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:54:	Local variable 'endIndex' could be declared final
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:56:	Local variable 'key' could be declared final
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:62:	Parameter 'declarer' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:66:	Avoid variables with short names like n
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:66:	Parameter 'n' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:66:	Parameter 'string' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:66:	Parameter 'subString' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:68:	Local variable 'slashMatcher' could be declared final
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:69:	Found 'DD'-anomaly for variable 'mIdx' (lines '69'-'71').
+src/main/java/com/nl/event/test/bolt/Msg2KVBolt.java:69:	Found 'DU'-anomaly for variable 'mIdx' (lines '69'-'78').
+src/main/java/com/nl/event/test/bolt/Msg2MapBolt.java:28:	The Logger variable declaration does not contain the static and final modifiers
+src/main/java/com/nl/event/test/bolt/Msg2MapBolt.java:28:	The field name indicates a constant but its modifiers do not
+src/main/java/com/nl/event/test/bolt/Msg2MapBolt.java:28:	Variables should start with a lowercase character, 'LOG' starts with uppercase character.
+src/main/java/com/nl/event/test/bolt/Msg2MapBolt.java:29:	Avoid using redundant field initializer for 'isDebug'
+src/main/java/com/nl/event/test/bolt/Msg2MapBolt.java:29:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/test/bolt/Msg2MapBolt.java:33:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/test/bolt/Msg2MapBolt.java:34:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/test/bolt/Msg2MapBolt.java:35:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/test/bolt/Msg2MapBolt.java:37:	Parameter 'schema' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/Msg2MapBolt.java:41:	Parameter 'schema' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/Msg2MapBolt.java:41:	Parameter 'stringDelim' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/Msg2MapBolt.java:45:	Parameter 'schema' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/Msg2MapBolt.java:45:	Parameter 'schemaDelim' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/Msg2MapBolt.java:45:	Parameter 'stringDelim' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/Msg2MapBolt.java:51:	Parameter 'collector' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/Msg2MapBolt.java:51:	Parameter 'tuple' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/Msg2MapBolt.java:52:	Local variable 'fields' could be declared final
+src/main/java/com/nl/event/test/bolt/Msg2MapBolt.java:53:	Local variable 'schemas' could be declared final
+src/main/java/com/nl/event/test/bolt/Msg2MapBolt.java:59:	Found 'DU'-anomaly for variable 'emitData' (lines '59'-'70').
+src/main/java/com/nl/event/test/bolt/Msg2MapBolt.java:59:	If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/com/nl/event/test/bolt/Msg2MapBolt.java:59:	Local variable 'emitData' could be declared final
+src/main/java/com/nl/event/test/bolt/Msg2MapBolt.java:72:	Parameter 'declarer' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/Msg2MapBolt.java:78:	Parameter 'context' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/Msg2MapBolt.java:78:	Parameter 'stormConf' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:20:	The class 'MultiRedisStoreBolt' has a Cyclomatic Complexity of 5 (Highest = 15).
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:20:	The class 'MultiRedisStoreBolt' has a Standard Cyclomatic Complexity of 5 (Highest = 15).
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:27:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:28:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:31:	Parameter 'storeMapper' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:34:	Local variable 'dataDescription' could be declared final
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:46:	Parameter 'input' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:46:	The method 'execute' has a Cyclomatic Complexity of 15.
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:46:	The method 'execute' has a Standard Cyclomatic Complexity of 15.
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:47:	Found 'DU'-anomaly for variable 'key' (lines '47'-'116').
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:47:	Local variable 'key' could be declared final
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:48:	Found 'DU'-anomaly for variable 'value' (lines '48'-'116').
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:48:	Local variable 'value' could be declared final
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:49:	Found 'DD'-anomaly for variable 'kvs' (lines '49'-'89').
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:49:	Found 'DU'-anomaly for variable 'kvs' (lines '49'-'116').
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:51:	Found 'DD'-anomaly for variable 'cmd' (lines '51'-'53').
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:53:	Found 'DU'-anomaly for variable 'cmd' (lines '53'-'116').
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:55:	A switch statement does not contain a break
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:110:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:122:	Document empty method body
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:122:	Parameter 'declarer' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:125:	Avoid using implementation types like 'HashMap'; use the interface instead
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:125:	Parameter 'delim' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:125:	Parameter 'value' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:126:	Parameter 'schema' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:127:	Found 'DD'-anomaly for variable 'data' (lines '127'-'132').
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:128:	Local variable 'fields' could be declared final
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:129:	Local variable 'schemas' could be declared final
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:136:	Avoid empty if statements
+src/main/java/com/nl/event/test/bolt/MultiRedisStoreBolt.java:136:	Avoid empty if statements
+src/main/java/com/nl/event/test/bolt/MutiRedisQueryBolt.java:20:	The class 'MutiRedisQueryBolt' has a Cyclomatic Complexity of 5 (Highest = 12).
+src/main/java/com/nl/event/test/bolt/MutiRedisQueryBolt.java:20:	The class 'MutiRedisQueryBolt' has a Standard Cyclomatic Complexity of 5 (Highest = 12).
+src/main/java/com/nl/event/test/bolt/MutiRedisQueryBolt.java:21:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/test/bolt/MutiRedisQueryBolt.java:22:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/test/bolt/MutiRedisQueryBolt.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/test/bolt/MutiRedisQueryBolt.java:30:	Parameter 'mapper' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/MutiRedisQueryBolt.java:34:	Local variable 'dataDescription' could be declared final
+src/main/java/com/nl/event/test/bolt/MutiRedisQueryBolt.java:43:	Found 'UR'-anomaly for variable 'value' (lines '43'-'94').
+src/main/java/com/nl/event/test/bolt/MutiRedisQueryBolt.java:43:	Parameter 'input' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/MutiRedisQueryBolt.java:43:	The method 'execute' has a Cyclomatic Complexity of 12.
+src/main/java/com/nl/event/test/bolt/MutiRedisQueryBolt.java:43:	The method 'execute' has a Standard Cyclomatic Complexity of 12.
+src/main/java/com/nl/event/test/bolt/MutiRedisQueryBolt.java:44:	Found 'DU'-anomaly for variable 'key' (lines '44'-'104').
+src/main/java/com/nl/event/test/bolt/MutiRedisQueryBolt.java:44:	Local variable 'key' could be declared final
+src/main/java/com/nl/event/test/bolt/MutiRedisQueryBolt.java:47:	Found 'DD'-anomaly for variable 'cmd' (lines '47'-'49').
+src/main/java/com/nl/event/test/bolt/MutiRedisQueryBolt.java:49:	Found 'DU'-anomaly for variable 'cmd' (lines '49'-'104').
+src/main/java/com/nl/event/test/bolt/MutiRedisQueryBolt.java:92:	Local variable 'values' could be declared final
+src/main/java/com/nl/event/test/bolt/MutiRedisQueryBolt.java:93:	Local variable 'value' could be declared final
+src/main/java/com/nl/event/test/bolt/MutiRedisQueryBolt.java:98:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/nl/event/test/bolt/MutiRedisQueryBolt.java:110:	Parameter 'declarer' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/NewHmset2RedisBolt.java:24:	Avoid unused private fields such as 'LOG'.
+src/main/java/com/nl/event/test/bolt/NewHmset2RedisBolt.java:24:	The Logger variable declaration does not contain the static and final modifiers
+src/main/java/com/nl/event/test/bolt/NewHmset2RedisBolt.java:24:	The field name indicates a constant but its modifiers do not
+src/main/java/com/nl/event/test/bolt/NewHmset2RedisBolt.java:24:	Variables should start with a lowercase character, 'LOG' starts with uppercase character.
+src/main/java/com/nl/event/test/bolt/NewHmset2RedisBolt.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/test/bolt/NewHmset2RedisBolt.java:33:	Parameter 'dataKey' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/NewHmset2RedisBolt.java:39:	Parameter 'input' is not assigned and could be declared final
+src/main/java/com/nl/event/test/bolt/NewHmset2RedisBolt.java:40:	Found 'DD'-anomaly for variable 'command' (lines '40'-'45').
+src/main/java/com/nl/event/test/bolt/NewHmset2RedisBolt.java:40:	Found 'DU'-anomaly for variable 'command' (lines '40'-'55').
+src/main/java/com/nl/event/test/bolt/NewHmset2RedisBolt.java:41:	Local variable 'dataValue' could be declared final
+src/main/java/com/nl/event/test/bolt/NewHmset2RedisBolt.java:42:	Use equals() to compare strings instead of '==' or '!='
+src/main/java/com/nl/event/test/bolt/NewHmset2RedisBolt.java:48:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/nl/event/test/bolt/NewHmset2RedisBolt.java:58:	Parameter 'declarer' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/DirectPartitioner.java:9:	Avoid unused constructor parameters such as 'props'.
+src/main/java/com/nl/event/test/kafkamsg/DirectPartitioner.java:9:	Document empty constructor
+src/main/java/com/nl/event/test/kafkamsg/DirectPartitioner.java:9:	Parameter 'props' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/DirectPartitioner.java:13:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'a_numPartitions' is not final.
+src/main/java/com/nl/event/test/kafkamsg/DirectPartitioner.java:13:	Parameter 'a_numPartitions' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/DirectPartitioner.java:13:	Parameter 'key' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/DirectPartitioner.java:18:	Found 'DD'-anomaly for variable 'partition' (lines '18'-'20').
+src/main/java/com/nl/event/test/kafkamsg/DirectPartitioner.java:29:	Parameter 'key' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/DirectPartitioner.java:29:	Parameter 'numPartitions' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/DirectPartitioner.java:30:	Local variable 'strKey' could be declared final
+src/main/java/com/nl/event/test/kafkamsg/KafkaEventEncoder.java:3:	Avoid unused imports such as 'com.dyuproject.protostuff.LinkedBuffer'
+src/main/java/com/nl/event/test/kafkamsg/KafkaEventEncoder.java:4:	Avoid unused imports such as 'com.dyuproject.protostuff.ProtobufIOUtil'
+src/main/java/com/nl/event/test/kafkamsg/KafkaEventEncoder.java:5:	Avoid unused imports such as 'com.dyuproject.protostuff.Schema'
+src/main/java/com/nl/event/test/kafkamsg/KafkaEventEncoder.java:6:	Avoid unused imports such as 'com.dyuproject.protostuff.runtime.RuntimeSchema'
+src/main/java/com/nl/event/test/kafkamsg/KafkaEventEncoder.java:7:	Avoid unused imports such as 'java.io.PrintStream'
+src/main/java/com/nl/event/test/kafkamsg/KafkaEventEncoder.java:8:	Avoid unused imports such as 'java.util.HashMap'
+src/main/java/com/nl/event/test/kafkamsg/KafkaEventEncoder.java:13:	Avoid unused constructor parameters such as 'props'.
+src/main/java/com/nl/event/test/kafkamsg/KafkaEventEncoder.java:13:	Document empty constructor
+src/main/java/com/nl/event/test/kafkamsg/KafkaEventEncoder.java:13:	Parameter 'props' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/KafkaEventEncoder.java:16:	Avoid variables with short names like o
+src/main/java/com/nl/event/test/kafkamsg/KafkaEventEncoder.java:16:	Parameter 'o' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/KafkaEventEncoder.java:20:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/nl/event/test/kafkamsg/KafkaEventEncoder.java:20:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:15:	Avoid using redundant field initializer for 'producer'
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:16:	Avoid using redundant field initializer for 'config'
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:17:	Avoid using redundant field initializer for 'async'
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:21:	Document empty constructor
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:24:	Parameter 'ack' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:28:	Parameter 'brokerList' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:36:	Parameter 'async' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:44:	Parameter 'compressType' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:52:	Parameter 'brokerList' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:60:	Parameter 'serializerClass' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:68:	Parameter 'direct' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:70:	Avoid using if...else statements without curly braces
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:79:	Parameter 'partitionerClass' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:84:	Local variable 'props' could be declared final
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:88:	Do not add empty strings
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:99:	Do not add empty strings
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:105:	Parameter 'msg' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:105:	Parameter 'partition' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:105:	Parameter 'topic' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:110:	Do not add empty strings
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:110:	Local variable 'data' could be declared final
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:113:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:114:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:119:	Parameter 'msg' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:119:	Parameter 'topic' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:123:	Found 'UR'-anomaly for variable 'msg' (lines '123'-'130').
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:123:	Parameter 'msgs' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:123:	Parameter 'partition' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:123:	Parameter 'topic' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:127:	Local variable 'messages' could be declared final
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:129:	Local variable 'msg' could be declared final
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:130:	Do not add empty strings
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:130:	Local variable 'data' could be declared final
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:136:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:137:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:142:	Parameter 'msgs' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/KafkaMsgSender.java:142:	Parameter 'topic' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/RandomPartitioner.java:10:	Avoid unused constructor parameters such as 'props'.
+src/main/java/com/nl/event/test/kafkamsg/RandomPartitioner.java:10:	Document empty constructor
+src/main/java/com/nl/event/test/kafkamsg/RandomPartitioner.java:10:	Parameter 'props' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/RandomPartitioner.java:14:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'a_numPartitions' is not final.
+src/main/java/com/nl/event/test/kafkamsg/RandomPartitioner.java:14:	Parameter 'a_numPartitions' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/RandomPartitioner.java:16:	Local variable 'rnd' could be declared final
+src/main/java/com/nl/event/test/kafkamsg/RandomPartitioner.java:17:	Local variable 'partition' could be declared final
+src/main/java/com/nl/event/test/kafkamsg/RandomPartitioner.java:22:	Parameter 'key' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/RandomPartitioner.java:22:	Parameter 'numPartitions' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/SerializeUtil.java:13:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/nl/event/test/kafkamsg/SerializeUtil.java:16:	Avoid variables with short names like o
+src/main/java/com/nl/event/test/kafkamsg/SerializeUtil.java:16:	Parameter 'o' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/SerializeUtil.java:18:	Local variable 'buffer' could be declared final
+src/main/java/com/nl/event/test/kafkamsg/SerializeUtil.java:23:	Parameter 'object' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/SerializeUtil.java:23:	Return an empty array rather than null.
+src/main/java/com/nl/event/test/kafkamsg/SerializeUtil.java:27:	Local variable 'baos' could be declared final
+src/main/java/com/nl/event/test/kafkamsg/SerializeUtil.java:28:	Local variable 'oos' could be declared final
+src/main/java/com/nl/event/test/kafkamsg/SerializeUtil.java:30:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/nl/event/test/kafkamsg/SerializeUtil.java:32:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/nl/event/test/kafkamsg/SerializeUtil.java:32:	Avoid empty catch blocks
+src/main/java/com/nl/event/test/kafkamsg/SerializeUtil.java:32:	Avoid empty catch blocks
+src/main/java/com/nl/event/test/kafkamsg/SerializeUtil.java:37:	Parameter 'bytes' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/SerializeUtil.java:38:	Found 'DD'-anomaly for variable 'bais' (lines '38'-'41').
+src/main/java/com/nl/event/test/kafkamsg/SerializeUtil.java:42:	Local variable 'ois' could be declared final
+src/main/java/com/nl/event/test/kafkamsg/SerializeUtil.java:43:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/nl/event/test/kafkamsg/SerializeUtil.java:45:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/nl/event/test/kafkamsg/SerializeUtil.java:45:	Avoid empty catch blocks
+src/main/java/com/nl/event/test/kafkamsg/SerializeUtil.java:45:	Avoid empty catch blocks
+src/main/java/com/nl/event/test/kafkamsg/SerializeUtil.java:50:	Parameter 'bytes' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/SerializeUtil.java:52:	Avoid instantiating String objects; this is usually unnecessary.
+src/main/java/com/nl/event/test/kafkamsg/SerializeUtil.java:52:	Local variable 'message' could be declared final
+src/main/java/com/nl/event/test/kafkamsg/TestKafkaFileSender.java:7:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/nl/event/test/kafkamsg/TestKafkaFileSender.java:9:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/nl/event/test/kafkamsg/TestKafkaFileSender.java:9:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/nl/event/test/kafkamsg/TestKafkaFileSender.java:10:	Local variable 'brokerList' could be declared final
+src/main/java/com/nl/event/test/kafkamsg/TestKafkaFileSender.java:17:	Local variable 'kafkaNLMsgSender' could be declared final
+src/main/java/com/nl/event/test/kafkamsg/TestKafkaFileSender.java:19:	Avoid variables with short names like in
+src/main/java/com/nl/event/test/kafkamsg/TestKafkaFileSender.java:25:	Local variable 'startTime' could be declared final
+src/main/java/com/nl/event/test/kafkamsg/TestKafkaFileSender.java:27:	Local variable 'msgs' could be declared final
+src/main/java/com/nl/event/test/kafkamsg/TestKafkaFileSender.java:28:	Local variable 'strFile' could be declared final
+src/main/java/com/nl/event/test/kafkamsg/TestKafkaFileSender.java:30:	Avoid variables with short names like y
+src/main/java/com/nl/event/test/kafkamsg/TestKafkaFileSender.java:30:	Found 'DD'-anomaly for variable 'y' (lines '30'-'35').
+src/main/java/com/nl/event/test/kafkamsg/TestKafkaFileSender.java:30:	Found 'DU'-anomaly for variable 'y' (lines '30'-'59').
+src/main/java/com/nl/event/test/kafkamsg/TestKafkaFileSender.java:34:	Avoid assignments in operands
+src/main/java/com/nl/event/test/kafkamsg/TestKafkaFileSender.java:34:	Found 'DU'-anomaly for variable 'sTempOneLine' (lines '34'-'59').
+src/main/java/com/nl/event/test/kafkamsg/TestKafkaFileSender.java:40:	System.out.println is used
+src/main/java/com/nl/event/test/kafkamsg/TestKafkaFileSender.java:46:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+src/main/java/com/nl/event/test/kafkamsg/TestKafkaFileSender.java:51:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/nl/event/test/kafkamsg/TestKafkaFileSender.java:52:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/nl/event/test/kafkamsg/TestKafkaFileSender.java:55:	Local variable 'endTime' could be declared final
+src/main/java/com/nl/event/test/kafkamsg/TestKafkaFileSender.java:56:	System.out.println is used
+src/main/java/com/nl/event/topo/MatchSaleActiveRuleTopo.java:21:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/nl/event/topo/MatchSaleActiveRuleTopo.java:25:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/main/java/com/nl/event/topo/MatchSaleActiveRuleTopo.java:25:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/nl/event/topo/MatchSaleActiveRuleTopo.java:25:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/nl/event/topo/MatchSaleActiveRuleTopo.java:28:	Local variable 'conf' could be declared final
+src/main/java/com/nl/event/topo/MatchSaleActiveRuleTopo.java:31:	System.exit() should not be used in J2EE/JEE apps
+src/main/java/com/nl/event/topo/MatchSaleActiveRuleTopo.java:33:	System.exit() should not be used in J2EE/JEE apps
+src/main/java/com/nl/event/topo/MatchSaleActiveRuleTopo.java:36:	Local variable 'gbaseCfg' could be declared final
+src/main/java/com/nl/event/topo/MatchSaleActiveRuleTopo.java:43:	Local variable 'oracleCfg' could be declared final
+src/main/java/com/nl/event/topo/MatchSaleActiveRuleTopo.java:50:	Local variable 'redisClusterCfg' could be declared final
+src/main/java/com/nl/event/topo/MatchSaleActiveRuleTopo.java:53:	Local variable 'matchRuleBoltStreams' could be declared final
+src/main/java/com/nl/event/topo/MatchSaleActiveRuleTopo.java:57:	Local variable 'builder' could be declared final
+src/main/java/com/nl/event/topo/MatchSaleActiveRuleTopo.java:88:	Local variable 'cluster' could be declared final
+src/main/java/com/nl/event/topo/McCaptureAtomEventTopo.java:26:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/nl/event/topo/McCaptureAtomEventTopo.java:30:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/nl/event/topo/McCaptureAtomEventTopo.java:30:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/nl/event/topo/McCaptureAtomEventTopo.java:34:	System.exit() should not be used in J2EE/JEE apps
+src/main/java/com/nl/event/topo/McCaptureAtomEventTopo.java:35:	System.exit() should not be used in J2EE/JEE apps
