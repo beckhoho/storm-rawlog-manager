@@ -1,0 +1,87 @@
+ports="7001 7002 7003 7004 7005 7006 7007 7008 7009 8001 8002 8003 8004 8005 8006 8007 8008 8009"
+ip1="192.168.1.54 192.168.1.54 192.168.1.54 192.168.1.55 192.168.1.55 192.168.1.55 192.168.1.56 192.168.1.56 192.168.1.56"
+ip2="192.168.1.55 192.168.1.55 192.168.1.55 192.168.1.56 192.168.1.56 192.168.1.56 192.168.1.54 192.168.1.54 192.168.1.54"
+
+/usr/lib/redis/redis-3.0.5/src/redis-trib.rb create --replicas 1 192.168.1.54:7001 192.168.1.54:7002 192.168.1.54:7003 192.168.1.55:7004 192.168.1.55:7005 192.168.1.55:7006 192.168.1.56:7007 192.168.1.56:7008 192.168.1.56:7009 192.168.1.55:8001 192.168.1.55:8002 192.168.1.55:8003 192.168.1.56:8004 192.168.1.56:8005 192.168.1.56:8006 192.168.1.54:8007 192.168.1.54:8008 192.168.1.54:8009
+
+
+10.238.156.5
+10.238.156.6
+10.238.156.7
+10.238.156.8
+
+server.1=supervisor1:2888:3888
+server.2=supervisor2:2888:3888
+server.3=supervisor3:2888:3888
+server.4=supervisor4:2888:3888
+server.5=supervisor5:2888:3888
+server.6=supervisor6:2888:3888
+server.7=supervisor7:2888:3888
+
+export ZOOKEEPER_HOME=/usr/zookeeper/zookeeper-3.4.6
+export PATH=$ZOOKEEPER_HOME/bin:$PATH
+
+export KAFKA_HOME=/usr/kafka/kafka_2.11-0.8.2.1
+export PATH=$PATH:$KAFKA_HOME/bin
+
+zkServer.sh start
+zkServer.sh status
+
+启动Kafka服务：
+kafka-server-start.sh $KAFKA_HOME/config/server.properties >/dev/null 2>&1 &
+停止Kafka服务：
+kafka-server-stop.sh
+
+
+export STORM_HOME=/usr/apache-storm-0.9.5
+export PATH=$PATH:$STORM_HOME/bin
+
+
+部署
+打好包好，在部署机器上解压，修改好配置文件，就可以运行了。
+解压
+1
+unzip kafka-manager-1.0-SNAPSHOT.zip
+修改conf/application.conf，把kafka-manager.zkhosts改为自己的zookeeper服务器地址
+1
+kafka-manager.zkhosts="localhost:2181"
+启动
+1
+2
+cd kafka-manager-1.0-SNAPSHOT/bin
+./kafka-manager -Dconfig.file=../conf/application.conf
+查看帮助 和 后台运行：
+1
+2
+./kafka-manager -h
+nohup ./kafka-manager -Dconfig.file=../conf/application.conf >/dev/null 2>&1 &
+默认http端口是9000，可以修改配置文件里的http.port的值，或者通过命令行参数传递：
+1
+./kafka-manager -Dhttp.port=9001
+正常来说，play框架应该会自动加载conf/application.conf配置里的内容，但是貌似这个不起作用，要显式指定才行。
+
+
+
+
+NEWMKT =
+ (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.242.4.78)(PORT = 9043))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = NEWMKT)
+    )
+  )
+
+perf
+
+xj_EMKT15
+
+perf/xj_EMKT15@NEWMKT
+
+192.168.1.55:2181,192.168.1.56:2181,192.168.1.57:2181,192.168.1.58:2181,192.168.1.59:2181,192.168.1.60:2181,192.168.1.61:2181
+
+/usr/kafka/kafka_2.11-0.8.2.1/bin/kafka-topics.sh --create --zookeeper 192.168.1.55:2181,192.168.1.56:2181,192.168.1.57:2181,192.168.1.58:2181,192.168.1.59:2181,192.168.1.60:2181,192.168.1.61:2181 --replication-factor 3 --partitions 3 --topic MC_DATA
+
+/usr/kafka/kafka_2.11-0.8.2.1/bin/kafka-console-producer.sh --broker-list 192.168.1.102:9092,192.168.1.103:9092,192.168.1.104:9092 --topic MC_DATA
+/usr/kafka/kafka_2.11-0.8.2.1/bin/kafka-console-producer.sh --broker-list 192.168.1.54:9092,192.168.1.55:9092,192.168.1.56:9092,192.168.1.57:9092,192.168.1.58:9092,192.168.1.59:9092,192.168.1.60:9092,192.168.1.61:9092 --topic MC_DATA
+storm jar XJ_atom_events-0.0.1-SNAPSHOT.jar com.nl.event.topo.McCaptureAtomEventTopo /home/stormdev/storm/conf/mc-capture-atom-event-topo.yaml

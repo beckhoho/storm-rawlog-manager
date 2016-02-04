@@ -1,0 +1,88 @@
+# 测试:alpha（α）、beta（β）和gamma（γ）;发布:released
+dev.versions: released
+# 拓扑配置
+topology.name: XJ_event_deal_test
+topology.workers: 3
+topology.message.timeout.secs: 1500
+#topology.acker.executors: 0
+topology.max.spout.pending: 2000
+data.spout.batchsize: 1
+capture.event.bolt.parallelism.hint: 3
+capture.event.bolt.key.index: 0
+capture.event.bolt.fields.size: 28
+capture.event.bolt.capture.list:
+     - 0
+     - 2
+     - 3
+     - 27
+capture.event.bolt.capture.list.name:
+     - MSISDN
+     - LAC
+     - CI
+     - URL
+match.rule.bolt.parallelism.hint: 1
+hset.redis.bolt.parallelism.hint: 1
+capture.event.bolt.streams.list:
+     - "capture_event_stream_00"
+     - "capture_event_stream_01"
+     - "capture_event_stream_02"
+     - "capture_event_stream_03"
+     - "capture_event_stream_04"
+     - "capture_event_stream_05"
+     - "capture_event_stream_06"
+     - "capture_event_stream_07"
+     - "capture_event_stream_08"
+     - "capture_event_stream_09"
+match.rule.bolt.streams.list:
+     - "match_rule_stream_00"
+     - "match_rule_stream_01"
+     - "match_rule_stream_02"
+     - "match_rule_stream_03"
+     - "match_rule_stream_04"
+     - "match_rule_stream_05"
+     - "match_rule_stream_06"
+     - "match_rule_stream_07"
+     - "match_rule_stream_08"
+     - "match_rule_stream_09"
+# kafka配置
+kafka.topic: GN_DATA
+kafka.gn.spoutid: XJ_event_deal_test
+kafka.brokerlist: "192.168.1.102:9092,192.168.1.103:9092,192.168.1.104:9092"
+kafka.zklist: "192.168.1.102:2182,192.168.1.103:2182,192.168.1.104:2182"
+# hdfs 配置
+#hdfs.hdfssite.file.path: "/home/bdapp/gsw/conf/hdfs-site.xml"
+#hdfs.coresite.file.path: "/home/bdapp/gsw/conf/core-site.xml"
+#fs.defaultFS: "hdfs://dcnn"
+#dfs.nameservices: "dcnn"
+#dfs.ha.namenodes: "nn1,nn2"
+#dfs.ha.namenodes.addr: "vgdev11:8020,vgdev12:8020"
+#dfs.ha.namenodes.size: 2
+#dfs.client.failover.proxy.provider: "org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider"
+# gbase配置
+gbase.db.name: xjdm
+gbase.db.driver: "com.gbase.jdbc.Driver"
+gbase.db.url: "jdbc:gbase://10.1.4.106:5258/"
+gbase.db.username: gbase
+gbase.db.password: 123456
+# oracle配置
+oracle.db.name: NEWMKT
+oracle.db.driver: "oracle.jdbc.driver.OracleDriver"
+oracle.db.url: "jdbc:oracle:thin:@10.242.4.78:9043:NEWMKT"
+oracle.db.username: perf
+oracle.db.password: xj_EMKT15
+# Redis 配置
+redis.cluster.nodes.size: 6
+redis.cluster.nodes.hostandport:
+     - "192.168.1.101:7001"
+     - "192.168.1.101:7002"
+     - "192.168.1.101:7003"
+     - "192.168.1.101:8001"
+     - "192.168.1.101:8002"
+     - "192.168.1.101:8003"
+redis.cluster.connect.timeout: 15000
+redis.cluster.connect.max_redirections: 100
+# 数据格式
+#a.data.split.str: ,
+#a.data.schema.fileds: START_TIME,IMSI,IMEI,EVENT_TYPE,DURATION,START_LAC,START_CI,END_LAC,END_CI,SOUR_LAC,SOUR_CI,DEST_LAC,DEST_CI,CAUSE,HLR,VLR,MSISDN,OPPO_NUM,OTHER_NUM,RES2
+gn.data.split.str: "\\|"
+gn.data.schema.fileds: MSISDN,DELAY,LAC,CI,IMEI,FLOW_TYPE,START_TIME,END_TIME,DURATION,UP_BYTES,DOWN_BYTES,TOTAL_BYTES,RAT_TYPE,TERMINAL_IP,VISIT_IP,STATUS,USER_AGENT,APN,IMSI,SGSNIP,GGSNIP,CONTENT_TYPE,SOURCE_PORT,DES_PORT,RECORD_MARK,MERGE_COUNT,HOST,URL

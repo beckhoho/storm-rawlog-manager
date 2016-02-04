@@ -1,0 +1,31 @@
+# 测试:alpha（α）、beta（β）和gamma（γ）;发布:released
+dev.versions: released
+# 拓扑配置
+topology.name: loadScenarios-beta
+topology.workers: 1
+topology.message.timeout.secs: 1500
+#topology.acker.executors: 0
+topology.max.spout.pending: 2000
+get.scenarios.list.spout.parallelism.hint: 1
+get.lacci.in.scenarios.bolt.parallelism.hint: 3
+hmset.redis.bolt.parallelism.hint: 3
+# gbase配置
+gbase.db.name: bigdata
+gbase.db.driver: "com.gbase.jdbc.Driver"
+gbase.db.url: "jdbc:gbase://10.238.156.1:5258/bigdata"
+gbase.db.username: gbase
+gbase.db.password: gbase20110531
+# Redis 配置
+redis.cluster.nodes.size: 9
+redis.cluster.nodes.hostandport:
+     - "192.168.1.54:7001"
+     - "192.168.1.54:7002"
+     - "192.168.1.54:7003"
+     - "192.168.1.55:7004"
+     - "192.168.1.55:7005"
+     - "192.168.1.55:7006"
+     - "192.168.1.56:7007"
+     - "192.168.1.56:7008"
+     - "192.168.1.56:7009"
+redis.cluster.connect.timeout: 15000
+redis.cluster.connect.max_redirections: 100
