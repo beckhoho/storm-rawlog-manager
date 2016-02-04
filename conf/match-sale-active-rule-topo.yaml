@@ -1,0 +1,64 @@
+# 测试:alpha（α）、beta（β）和gamma（γ）;发布:released
+dev.versions: released
+# 拓扑配置
+topology.name: matchSaleActiveRule
+topology.workers: 1
+topology.message.timeout.secs: 1500
+#topology.acker.executors: 0
+topology.max.spout.pending: 2000
+get.sale.active.list.spout.parallelism.hint: 1
+get.sale.active.list.spout.lock.time.second: 60
+match.sale.active.user.list.bolt.parallelism.hint: 3
+match.sale.active.user.list.bolt.store.tablename: "XJAE:CUG:"
+match.rule.bolt.parallelism.hint: 3
+match.rule.bolt.store.tablename: "XJAE:UAEL:"
+match.rule.bolt.streams.list:
+     - "match_rule_stream_00"
+     - "match_rule_stream_01"
+     - "match_rule_stream_02"
+     - "match_rule_stream_03"
+     - "match_rule_stream_04"
+     - "match_rule_stream_05"
+     - "match_rule_stream_06"
+     - "match_rule_stream_07"
+     - "match_rule_stream_08"
+     - "match_rule_stream_09"
+store.db.bolt.parallelism.hint: 1
+store.db.bolt.store.tablename: mgic_perf_event_chance
+store.db.bolt.streams.list:
+     - "store_db_stream_00"
+     - "store_db_stream_01"
+     - "store_db_stream_02"
+     - "store_db_stream_03"
+     - "store_db_stream_04"
+     - "store_db_stream_05"
+     - "store_db_stream_06"
+     - "store_db_stream_07"
+     - "store_db_stream_08"
+     - "store_db_stream_09"
+# gbase配置
+gbase.db.name: bigdata
+gbase.db.driver: "com.gbase.jdbc.Driver"
+gbase.db.url: "jdbc:gbase://10.238.156.1:5258/bigdata"
+gbase.db.username: gbase
+gbase.db.password: gbase20110531
+# oracle配置
+oracle.db.name: NEWMKT
+oracle.db.driver: "oracle.jdbc.driver.OracleDriver"
+oracle.db.url: "jdbc:oracle:thin:@10.242.4.78:9043:NEWMKT"
+oracle.db.username: perf
+oracle.db.password: xj_EMKT15
+# Redis 配置
+redis.cluster.nodes.size: 9
+redis.cluster.nodes.hostandport:
+     - "192.168.1.54:7001"
+     - "192.168.1.54:7002"
+     - "192.168.1.54:7003"
+     - "192.168.1.55:7004"
+     - "192.168.1.55:7005"
+     - "192.168.1.55:7006"
+     - "192.168.1.56:7007"
+     - "192.168.1.56:7008"
+     - "192.168.1.56:7009"
+redis.cluster.connect.timeout: 15000
+redis.cluster.connect.max_redirections: 100
